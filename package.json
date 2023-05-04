@@ -4,7 +4,9 @@
   "description": "This is an application that is a wordpress style tech blog where developers can post, edit and comment blogs. It will be deployed through heroku and use MVC structure.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeds/seed.js"
   },
   "keywords": [],
   "author": "",
